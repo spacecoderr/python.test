@@ -1,0 +1,26 @@
+2023-09-21 19:25:29,868 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-21 19:25:29,868 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/instabot/bot/bot.py
+2023-09-21 19:25:29,868 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-21 19:25:31,946 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-21 19:25:33,401 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-21 19:25:35,171 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-21 19:25:36,000 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2023-09-21 19:25:36,000 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-09-21 19:25:36,000 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-09-21 19:25:36,000 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2023-09-21 19:30:37,397 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2023-09-21 19:30:37,398 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-09-21 19:30:37,398 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-09-21 19:30:37,398 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 10 minutes.
+2023-09-21 19:40:38,266 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2023-09-21 19:40:38,266 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-09-21 19:40:38,267 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-09-21 19:40:38,267 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 15 minutes.
+2023-09-21 21:14:09,892 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-21 21:14:11,528 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-21 21:14:11,528 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-21 21:14:11,528 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-21 21:14:11,529 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-21 21:14:11,529 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-21 21:14:11,529 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-21 21:14:11,529 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
